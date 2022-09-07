@@ -36,7 +36,7 @@ accordionItems.forEach((item) => {
 
     toggleItem(item);
 
-    if (open && openItem !== item) {
+    if (openItem && openItem !== item) {
       toggleItem(openItem);
     }
   });
